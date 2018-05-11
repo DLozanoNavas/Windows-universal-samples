@@ -22,8 +22,9 @@ Specifically, this sample shows how to:
 
 ## Prerequisites
 
-This sample requires the [Microsoft Advertising SDK Libraries for XAML or JavaScript](http://go.microsoft.com/fwlink/?LinkID=619694).
-[Download it here](http://go.microsoft.com/fwlink/p/?LinkId=518026).
+This sample requires the [Microsoft Advertising SDK Libraries for XAML or JavaScript](http://go.microsoft.com/fwlink/?LinkID=619694),
+which is obtained via NuGet package,
+or you can [download it here](http://go.microsoft.com/fwlink/p/?LinkId=518026).
 It also requires the [internet client capability](https://msdn.microsoft.com/library/windows/apps/mt270968#general-use_capabilities) to be added to the manifest.
 
 When you incorporate this sample into your own app,
@@ -35,7 +36,7 @@ for more details.
 
 ### Samples
 
-[Store in-app purchase](/Samples/Store)  
+[Microsoft Store in-app purchase](/Samples/Store)  
 
 ## Reference
 
@@ -56,8 +57,8 @@ for more details.
 ## Build the sample
 
 1. If you download the samples ZIP, be sure to unzip the entire archive, not just the folder with the sample you want to build. 
-2. Start Microsoft Visual Studio 2015 and select **File** \> **Open** \> **Project/Solution**.
-3. Starting in the folder where you unzipped the samples, go to the Samples subfolder, then the subfolder for this specific sample, then the subfolder for your preferred language (C++, C#, or JavaScript). Double-click the Visual Studio�2015 Solution (.sln) file.
+2. Start Microsoft Visual Studio 2017 and select **File** \> **Open** \> **Project/Solution**.
+3. Starting in the folder where you unzipped the samples, go to the Samples subfolder, then the subfolder for this specific sample, then the subfolder for your preferred language (C++, C#, or JavaScript). Double-click the Visual Studio Solution (.sln) file.
 4. Press Ctrl+Shift+B, or select **Build** \> **Build Solution**.
 
 ## Run the sample

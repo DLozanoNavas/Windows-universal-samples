@@ -44,9 +44,11 @@ To configure Google OAuth connections (Google Apps and Google) you will need to 
 
 To configure Facebook OAuth connections you will have to register as a Facebook Developer
 - [Becoming a Facebook Developer](https://developers.facebook.com/apps)
+- [More detailed instructions](https://github.com/Microsoft/Windows-universal-samples/issues/618)
 
 To configure Twitter OAuth connections you will have to register an application with Twitter
 - [xAuth for OAuth access to Twitter APIs](https://dev.twitter.com/oauth/xauth)
+- [More detailed instructions](https://github.com/Microsoft/Windows-universal-samples/issues/618)
 
 To configure Flickr OAuth connections you will have to register an application with Flickr
 - [Flickr API Keys Documentation](https://www.flickr.com/services/api/misc.api_keys.html)
@@ -58,8 +60,8 @@ Windows 10
 ## Build the sample
 
 1. If you download the samples ZIP, be sure to unzip the entire archive, not just the folder with the sample you want to build. 
-2. Start Microsoft Visual Studio 2015 and select **File** \> **Open** \> **Project/Solution**.
-3. Starting in the folder where you unzipped the samples, go to the Samples subfolder, then the subfolder for this specific sample, then the subfolder for your preferred language (C++, C#, or JavaScript). Double-click the Visual Studio 2015 Solution (.sln) file.
+2. Start Microsoft Visual Studio 2017 and select **File** \> **Open** \> **Project/Solution**.
+3. Starting in the folder where you unzipped the samples, go to the Samples subfolder, then the subfolder for this specific sample, then the subfolder for your preferred language (C++, C#, or JavaScript). Double-click the Visual Studio Solution (.sln) file.
 4. Press Ctrl+Shift+B, or select **Build** \> **Build Solution**.
 
 ## Run the sample
