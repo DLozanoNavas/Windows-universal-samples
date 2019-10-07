@@ -1,4 +1,15 @@
-﻿<!--
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- cppcx
+products:
+- windows
+- windows-uwp
+---
+
+<!--
   category: NetworkingAndWebServices 
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620623
 --->
@@ -63,13 +74,13 @@ This sample requires that network capabilities be set in the *Package.appxmanife
 
 [Windows.Networking.Sockets](https://docs.microsoft.com/uwp/api/Windows.Networking.Sockets)
 
+### Related samples
+
+* [WebSocket sample](/archived/WebSocket/) for JavaScript (archived)
+
 ## System requirements
 
-**Client:** Windows 10
-
-**Server:** Windows Server 2016
-
-**Phone:**  Windows 10
+* Windows 10
 
 ## Build the sample
 

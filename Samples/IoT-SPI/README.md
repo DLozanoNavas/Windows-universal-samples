@@ -1,3 +1,14 @@
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- cppcx
+products:
+- windows
+- windows-uwp
+---
+
 <!---
   category: DevicesSensorsAndPower
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=624151
@@ -28,13 +39,19 @@ The sample shows the following techniques:
 
 To obtain information about Windows 10 IoT Core, go to [Windows on Devices](http://windowsondevices.com).
 
-To see more samples specifically describing how to leverage Windows 10 IoT Core, click on the [Samples tab here](http://ms-iot.github.io/content/win10/StartCoding.htm).
+You can find more Windows IoT Core samples in the [Windows 10 Internet of Things (IoT) Samples repo](https://go.microsoft.com/fwlink/?linkid=860459).
 
 To obtain information about Microsoft Visual Studio and the tools for developing Windows apps, go to [Visual Studio](http://go.microsoft.com/fwlink/?LinkID=532422)
 
+## Related topics
+
+### Related samples
+
+* [IoT-SPI sample](/archived/IoT-SPI/) for JavaScript (archived)
+
 ## System requirements
 
-**IoT:** Windows 10 IoT Core
+* Windows 10 IoT Core
 
 ## Build the sample
 

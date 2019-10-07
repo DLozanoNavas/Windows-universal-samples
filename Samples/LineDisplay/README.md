@@ -1,3 +1,14 @@
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- cppcx
+products:
+- windows
+- windows-uwp
+---
+
 <!---
   category: DevicesSensorsAndPower
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=851025
@@ -25,6 +36,29 @@ Specifically, this sample shows how to:
     This scenario demonstrates how to display text on the line display.
     It also demonstrates how to detect and take advantage of optional features (in this case, blinking text).
 
+3.  **Windows**
+
+    This scenario creates windows and manipulates them.
+
+4.  **Line display attributes**
+
+    This scenario detects which line display attributes are supported
+    and changes them.
+
+5.   **Custom glyphs**
+
+    This scenario detects whether custom glyphs are supported
+    and if so, changes glyphs to a solid black rectangle.
+
+6.   **Cursor attributes**
+
+    This scenario detects which cursor attributes are supported
+    and changes them.
+
+7.   **Marquee**
+
+    This scenario displays text using a marquee effect, if supported.
+
 **Note** The Windows universal samples require Visual Studio 2017 to build and Windows 10 to execute.
  
 To obtain information about Windows 10 development, go to the [Windows Dev Center](http://go.microsoft.com/fwlink/?LinkID=532421)
@@ -32,10 +66,6 @@ To obtain information about Windows 10 development, go to the [Windows Dev Cente
 To obtain information about Microsoft Visual Studio and the tools for developing Windows apps, go to [Visual Studio](http://go.microsoft.com/fwlink/?LinkID=532422)
 
 ## Related topics
-
-### Samples
-
-[Line Display sample](/Samples/LineDisplay)
 
 ### Reference
 
@@ -47,13 +77,13 @@ To obtain information about Microsoft Visual Studio and the tools for developing
 
 [Windows app samples](http://go.microsoft.com/fwlink/p/?LinkID=227694)
 
+### Related samples
+
+* [LineDisplay sample](/archived/LineDisplay/) for JavaScript (archived)
+
 ## System requirements
 
-**Client:** Windows 10
-
-**Server:** Windows Server 2016 Technical Preview
-
-**Phone:** Windows 10
+* Windows 10
 
 ## Build the sample
 

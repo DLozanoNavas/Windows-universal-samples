@@ -1,4 +1,14 @@
-﻿<!---
+---
+topic: sample
+languages:
+- cpp
+- cppcx
+products:
+- windows
+- windows-uwp
+---
+
+<!---
   category: GraphicsAndAnimation
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620532
 --->

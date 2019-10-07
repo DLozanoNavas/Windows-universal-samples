@@ -1,3 +1,12 @@
+---
+topic: sample
+languages:
+- csharp
+products:
+- windows
+- windows-uwp
+---
+
 <!---
   category: LaunchingAndBackgroundTasks
   samplefwlink: http://go.microsoft.com/fwlink/?LinkID=761251

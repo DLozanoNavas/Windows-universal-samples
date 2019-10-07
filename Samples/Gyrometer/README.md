@@ -1,3 +1,14 @@
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- cppcx
+products:
+- windows
+- windows-uwp
+---
+
 <!---
   category: DevicesSensorsAndPower
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620548
@@ -32,17 +43,19 @@ When you click the **Enable** button for the **Polling** option, the app will re
 
 When you click the **Get Sample** button, two sets of readings are displayed: raw gyrometer reading, based on the native orientation of the device, and transformed gyrometer reading based on the native orientation of the device your sensor logic was originally developed for.
 
-### Related topics
+## Related topics
+
+### Reference
 
 [Windows.Devices.Sensors namespace](http://go.microsoft.com/fwlink/p/?linkid=241981)  
 
+### Related samples
+
+* [Gyrometer sample](/archived/Gyrometer/) for JavaScript (archived)
+
 ## System requirements
 
-**Client:** Windows 10
-
-**Server:** Windows Server 2016 Technical Preview
-
-**Phone:** Windows 10
+* Windows 10
 
 ## Build the sample
 

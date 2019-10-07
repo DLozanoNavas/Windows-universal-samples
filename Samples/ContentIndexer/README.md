@@ -1,4 +1,15 @@
-﻿<!---
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- cppcx
+products:
+- windows
+- windows-uwp
+---
+
+<!---
   category: Data
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620524
 --->
@@ -63,13 +74,13 @@ To obtain information about Microsoft Visual Studio and the tools for developing
 [CreateFileQuery](http://msdn.microsoft.com/library/windows/apps/br227252)  
 [CreateFileQueryWithOptions](http://msdn.microsoft.com/library/windows/apps/br211591)  
 
+### Related samples
+
+* [ContentIndexer sample](/archived/ContentIndexer/) for JavaScript (archived)
+
 ## System requirements
 
-**Client:** Windows 10
-
-**Server:** Windows Server 2016 Technical Preview
-
-**Phone:** Windows 10
+* Windows 10
 
 ## Build the sample
 

@@ -1,4 +1,15 @@
-﻿<!---
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- cppcx
+products:
+- windows
+- windows-uwp
+---
+
+<!---
   category: IdentitySecurityAndEncryption
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620604
 --->
@@ -25,15 +36,21 @@ Specifically, this sample shows:
 - Listing all the smart cards on the machine
 - Transmitting
 
-Related topics
---------------
+**Note:**  In order to create a virtual smart card using a UWP app, the user running the app must be a member of the administrators group. If the user is not a member of the administrators group, virtual smart card creation will fail.
+
+## Related topics
+
+### Reference
 
 [Windows.Devices.SmartCards](http://msdn.microsoft.com/library/windows/apps/dn263949)  
 
-Operating system requirements
------------------------------
+### Related samples
 
-Windows 10
+* [SmartCard sample](/archived/SmartCard/) for JavaScript (archived)
+
+## System requirements
+
+* Windows 10
 
 Build the sample
 ----------------

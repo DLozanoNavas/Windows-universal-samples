@@ -1,3 +1,14 @@
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- cppcx
+products:
+- windows
+- windows-uwp
+---
+
 <!---
   category: Data
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=619989

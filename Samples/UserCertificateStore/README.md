@@ -1,4 +1,15 @@
-﻿<!---
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- cppcx
+products:
+- windows
+- windows-uwp
+---
+
+<!---
   category: IdentitySecurityAndEncryption
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=784879
 --->
@@ -38,13 +49,13 @@ the app must have the sharedUserCertificate capability.
 [CertificateStores class](https://msdn.microsoft.com/library/windows/apps/windows.security.cryptography.certificates.certificatestores.aspx)  
 [CertificateStore class](https://msdn.microsoft.com/library/windows/apps/windows.security.cryptography.certificates.certificatestore.aspx)  
 
+### Related samples
+
+* [UserCertificateStore sample](/archived/UserCertificateStore/) for JavaScript (archived)
+
 ## System requirements
 
-**Client:** Windows 10 build 14295
-
-**Server:** Windows Server 2016 Technical Preview
-
-**Phone:** Windows 10 build 14295
+* Windows 10 build 14393 or higher
 
 ## Build the sample
 

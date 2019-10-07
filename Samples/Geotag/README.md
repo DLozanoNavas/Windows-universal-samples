@@ -1,4 +1,15 @@
-﻿<!---
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- cppcx
+products:
+- windows
+- windows-uwp
+---
+
+<!---
   category: MapsAndLocation 
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620547
 --->
@@ -15,17 +26,21 @@ or to a location obtained from a Geolocator.
 > the samples collection, and GitHub, see [Get the UWP samples from GitHub](https://aka.ms/ovu2uq). 
 > For more samples, see the [Samples portal](https://aka.ms/winsamples) on the Windows Dev Center. 
 
-Related topics
---------------
+## Related topics
+
+### Reference
 
 [GeotagHelper class](https://msdn.microsoft.com/library/windows/apps/windows.storage.fileproperties.geotaghelper.aspx)  
 [Geolocator class](https://msdn.microsoft.com/library/windows/apps/windows.devices.geolocation.geolocator.aspx)  
 [Geolocation sample](/Samples/Geolocation)  
 
-System requirements
--------------------
+### Related samples
 
-Windows 10
+* [Geotag sample](/archived/Geotag/) for JavaScript (archived)
+
+## System requirements
+
+* Windows 10
 
 Build the sample
 ----------------

@@ -1,4 +1,16 @@
-﻿<!---
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- cppcx
+- cppwinrt
+products:
+- windows
+- windows-uwp
+---
+
+<!---
   category: FilesFoldersAndLibraries
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=619994
 --->
@@ -57,24 +69,20 @@ To obtain information about Microsoft Visual Studio and the tools for developing
 
 ## Related topics
 
-## Samples
-
-[File access sample](http://go.microsoft.com/fwlink/p/?linkid=231445)  
-[Using a Blob to save and load content sample](http://go.microsoft.com/fwlink/p/?linkid=231615)  
-[File and folder thumbnail sample](http://go.microsoft.com/fwlink/p/?linkid=231522)  
-[File picker contracts sample](http://go.microsoft.com/fwlink/p/?linkid=231536)  
-
-## Reference
+### Reference
 
 [Windows.Storage.Pickers namespace](http://msdn.microsoft.com/library/windows/apps/br207928)  
 
+### Related samples
+
+* [File access sample](http://go.microsoft.com/fwlink/p/?linkid=231445)
+* [File and folder thumbnail sample](http://go.microsoft.com/fwlink/p/?linkid=231522)
+* [File picker contracts sample](http://go.microsoft.com/fwlink/p/?linkid=231536)
+* [FilePicker sample](/archived/FilePicker/) for JavaScript (archived)
+
 ## System requirements
 
-**Client:** Windows 10
-
-**Server:** Windows Server 2016 Technical Preview
-
-**Phone:** Windows 10
+* Windows 10
 
 ## Build the sample
 

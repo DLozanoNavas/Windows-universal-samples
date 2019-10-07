@@ -1,4 +1,15 @@
-﻿<!---
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- cppcx
+products:
+- windows
+- windows-uwp
+---
+
+<!---
   category: AppSettings TrialsAdsAndInAppPurchases
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=627610
 --->
@@ -67,24 +78,20 @@ To obtain information about Microsoft Visual Studio and the tools for developing
 
 ## Related topics
 
-[Coloring Book app sample](https://github.com/Microsoft/Windows-appsample-coloringbook)  
-
-### Samples
-
-[Advertising](/Samples/Advertising)  
-
 ### Reference
 
 [Windows.Services.Store namespace](https://msdn.microsoft.com/library/windows/apps/windows.services.store.aspx)  
 [Monetization, customer engagement, and Microsoft Store services](https://msdn.microsoft.com/windows/uwp/monetize/)  
 
+### Related samples
+
+* [Coloring Book app sample](https://github.com/Microsoft/Windows-appsample-coloringbook)
+* [Advertising](/Samples/Advertising)
+* [Store sample](/archived/Store/) for JavaScript (archived)
+
 ## System requirements
 
-**Client:** Windows 10 version 1607
-
-**Server:** Windows Server 2016 Technical Preview
-
-**Phone:**  Windows 10 version 1607
+* Windows 10 build 14393 or higher
 
 ## Build the sample
 

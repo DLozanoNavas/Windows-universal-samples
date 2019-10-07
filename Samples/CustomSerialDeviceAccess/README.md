@@ -1,3 +1,12 @@
+---
+topic: sample
+languages:
+- csharp
+products:
+- windows
+- windows-uwp
+---
+
 <!---
   category: DevicesSensorsAndPower
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620529
@@ -38,11 +47,15 @@ This scenario demonstrates the use of Input and Output streams on the SerialDevi
 
 This scenario demonstrates the use of event notification APIs provided by Windows.Devices.SerialCommunication for **Pin Changed** and **Error Received** event types.
 
-## Operating system requirements
+## Related topics
 
-**Client:** Windows 10
+### Related samples
 
-**Server:** Windows Server 2016 Technical Preview
+* [CustomSerialDeviceAccess sample](/archived/CustomSerialDeviceAccess/) for JavaScript (archived)
+
+## System requirements
+
+* Windows 10
 
 ## Build the sample
 

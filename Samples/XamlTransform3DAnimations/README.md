@@ -1,3 +1,12 @@
+---
+topic: sample
+languages:
+- csharp
+products:
+- windows
+- windows-uwp
+---
+
 <!---
   category: GraphicsAndAnimation
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620637

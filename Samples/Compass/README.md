@@ -1,3 +1,15 @@
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- cppcx
+- vb
+products:
+- windows
+- windows-uwp
+---
+
 <!---
   category: DevicesSensorsAndPower
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620521
@@ -34,15 +46,17 @@ Allows the user to simulate sensor accuracy and demonstrates usage of the calibr
 
 ## Related topics
 
-[Windows.Devices.Sensors namespace](http://go.microsoft.com/fwlink/p/?linkid=241981)  
+### Reference
+
+* [Windows.Devices.Sensors namespace](http://go.microsoft.com/fwlink/p/?linkid=241981)
+
+### Related samples
+
+* [Compass sample](/archived/Compass/) for JavaScript (archived)
 
 ## System requirements
 
-**Client:** Windows 10
-
-**Server:** Windows Server 2016 Technical Preview
-
-**Phone:** Windows 10
+* Windows 10
 
 ## Build the sample
 

@@ -1,4 +1,15 @@
-﻿<!---
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- cppcx
+products:
+- windows
+- windows-uwp
+---
+
+<!---
   category: ContactsAndCalendar
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=624040
 --->
@@ -51,23 +62,20 @@ To obtain information about Microsoft Visual Studio and the tools for developing
 
 ## Related topics
 
-### Samples
-
-[ContactPicker](../ContactPicker)  
-
 ### Reference
 
 [Contact](http://msdn.microsoft.com/library/windows/apps/br224849)  
 [ContactCardDelayedDataLoader](http://msdn.microsoft.com/library/windows/apps/dn297400)  
 [Windows.ApplicationModel.Contacts](http://msdn.microsoft.com/library/windows/apps/br225002)  
 
+### Related samples
+
+* [ContactPicker](../ContactPicker)
+* [ContactCards sample](/archived/ContactCards/) for JavaScript (archived)
+
 ## System requirements
 
-**Client:** Windows 10
-
-**Server:** Windows Server 2016 Technical Preview
-
-**Phone:** Windows 10 (full contact cards only)
+* Windows 10
 
 ## Build the sample
 

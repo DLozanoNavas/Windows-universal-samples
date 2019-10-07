@@ -1,4 +1,16 @@
-﻿<!---
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- cppcx
+- cppwinrt
+products:
+- windows
+- windows-uwp
+---
+
+<!---
   category: FilesFoldersAndLibraries
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=619993
 --->
@@ -56,24 +68,21 @@ To obtain information about Microsoft Visual Studio and the tools for developing
 
 ## Related topics
 
-### Samples
-
-[Programmatic file search sample](http://go.microsoft.com/fwlink/p/?linkid=231532)  
-[File access sample](http://go.microsoft.com/fwlink/p/?linkid=231445)  
-[File and folder thumbnail sample](http://go.microsoft.com/fwlink/p/?linkid=231522)  
-
 ### Reference
 
 [Windows.Storage namespace](http://msdn.microsoft.com/library/windows/apps/br227346)  
 [Windows.Storage.Search namespace](http://msdn.microsoft.com/library/windows/apps/br208106)  
 
+### Related samples
+
+* [Programmatic file search sample](http://go.microsoft.com/fwlink/p/?linkid=231532)
+* [File access sample](http://go.microsoft.com/fwlink/p/?linkid=231445)
+* [File and folder thumbnail sample](http://go.microsoft.com/fwlink/p/?linkid=231522)
+* [FolderEnumeration sample](/archived/FolderEnumeration/) for JavaScript (archived)
+
 ## System requirements
 
-**Client:** Windows 10 build 10500 or higher
-
-**Server:** Windows Server 2016 Technical Preview build 10500 or higher
-
-**Phone:** Windows 10 build 10500 or higher
+* Windows 10 build 10586
 
 ## Build the sample
 

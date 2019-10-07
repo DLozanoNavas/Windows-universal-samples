@@ -1,4 +1,16 @@
-﻿<!---
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- cppcx
+- vb
+products:
+- windows
+- windows-uwp
+---
+
+<!---
   category: DeepLinksAndAppToAppCommunication
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620489
 --->

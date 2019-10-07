@@ -1,4 +1,15 @@
-﻿<!---
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- cppcx
+products:
+- windows
+- windows-uwp
+---
+
+<!---
   category: AudioVideoAndCamera 
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620518
 --->
@@ -56,28 +67,28 @@ Note that for the Surface Pro 4 and Surface Book 1,
 the latest 4731 camera drivers publish profiles,
 but the factory image drivers do not.
 
-Related topics
---------------
-[Windows.Media.Capture.MediaCapture namespace](https://msdn.microsoft.com/library/windows/apps/windows.media.devices.aspx)  
-[Windows.Devices.Enumeration namespace](https://msdn.microsoft.com/library/windows/apps/windows.devices.enumeration.aspx)  
+## Related topics
 
-**Conceptual**
+### Conceptual
 
 [How to use Camera Profiles](http://go.microsoft.com/fwlink/?LinkId=627233)  
 
-**Reference**
+### Reference
 
+[Windows.Media.Capture.MediaCapture namespace](https://msdn.microsoft.com/library/windows/apps/windows.media.devices.aspx)  
+[Windows.Devices.Enumeration namespace](https://msdn.microsoft.com/library/windows/apps/windows.devices.enumeration.aspx)  
 [Windows.Media.Capture.MediaCaptureInitializationSettings](https://msdn.microsoft.com/library/windows/apps/windows.media.capture.mediacaptureinitializationsettings.mediacaptureinitializationsettings.aspx)  
 [Windows.Media.Capture.MediaCaptureInitilizationSettings.VideoDeviceId](https://msdn.microsoft.com/library/windows/apps/windows.media.capture.mediacaptureinitializationsettings.videodeviceid.aspx)  
 [Windows.Devices.Enumeration.DeviceInformation class](https://msdn.microsoft.com/library/windows/apps/windows.devices.enumeration.deviceinformation.aspx)  
 
-System requirements
------------------------------
-Camera that supports Video Profiles
+### Related samples
 
-**Client:** Windows 10
+* [CameraProfile sample](/archived/CameraProfile/) for JavaScript (archived)
 
-**Phone:** Windows 10
+### System requirements
+
+* Windows 10
+* Camera that supports Video Profiles
 
 Build the sample
 ----------------

@@ -1,4 +1,14 @@
-﻿<!---
+---
+topic: sample
+languages:
+- csharp
+- vb
+products:
+- windows
+- windows-uwp
+---
+
+<!---
   category: AppSettings
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620486
 --->

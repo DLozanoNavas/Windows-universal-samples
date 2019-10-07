@@ -1,3 +1,13 @@
+---
+topic: sample
+languages:
+- cpp
+- cppcx
+products:
+- windows
+- windows-uwp
+---
+
 <!---
   category: CustomUserInteractions Inking
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620522

@@ -1,4 +1,15 @@
-﻿<!---
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- vb
+products:
+- windows
+- windows-uwp
+---
+
+<!---
   category: GraphicsAndAnimation
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620484
 --->
@@ -30,21 +41,18 @@ To obtain information about Microsoft Visual Studio and the tools for developing
 
 ## Related topics
 
-### Samples
-
-[AnimationLibrary](/Samples/AnimationLibrary)
-
 ### Reference
 
 [AnimationMetrics namespace](https://msdn.microsoft.com/library/windows/apps/windows.ui.core.animationmetrics.aspx)
 
+### Related samples
+
+* [AnimationLibrary](/Samples/AnimationLibrary)
+* [AnimationMetrics sample](/archived/AnimationMetrics/) for JavaScript (archived)
+
 ## System requirements
 
-**Client:** Windows 10
-
-**Server:** Windows Server 2016 Technical Preview
-
-**Phone:** Not supported
+* Windows 10 Desktop
 
 ## Build the sample
 

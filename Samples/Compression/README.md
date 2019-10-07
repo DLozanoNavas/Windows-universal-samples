@@ -1,4 +1,15 @@
-﻿<!---
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- cppcx
+products:
+- windows
+- windows-uwp
+---
+
+<!---
   category: Data
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620523
 --->
@@ -33,19 +44,15 @@ Specifically, this sample shows the following:
 
 To obtain information about Microsoft Visual Studio and the tools for developing Windows apps, go to [Visual Studio](http://go.microsoft.com/fwlink/?LinkID=532422)
 
-## Operating system requirements
+## Related topics
 
-Client
+### Related samples
 
-Windows 10
+* [Compression sample](/archived/Compression/) for JavaScript (archived)
 
-Server
+## System requirements
 
-Windows Server 2012 R2
-
-Phone
-
-Windows 10 Mobile
+* Windows 10
 
 ## Build the sample
 

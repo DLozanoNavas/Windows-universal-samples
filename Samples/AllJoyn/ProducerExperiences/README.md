@@ -1,3 +1,12 @@
+---
+topic: sample
+languages:
+- csharp
+products:
+- windows
+- windows-uwp
+---
+
 <!---
   category: DevicesSensorsAndPower
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=534025
@@ -34,8 +43,9 @@ To obtain information about Microsoft Visual Studio and the tools for developing
 
 ### Samples
 
-[AllJoyn Producer Experiences](http://go.microsoft.com/fwlink/p/?LinkId=534025)  
-[AllJoyn Consumer Experiences](http://go.microsoft.com/fwlink/p/?LinkID=534021)  
+* [AllJoyn Producer Experiences](http://go.microsoft.com/fwlink/p/?LinkId=534025)
+* [AllJoyn Consumer Experiences](http://go.microsoft.com/fwlink/p/?LinkID=534021)
+* [AllJoyn Producer Experiences](/archived/AllJoyn/ProducerExperiences/) for JavaScript (archived)
 
 The AllSeen Alliance has samples in [Windows SDK](https://allseenalliance.org/developers/download)
 
@@ -47,13 +57,7 @@ The AllSeen Alliance has samples in [Windows SDK](https://allseenalliance.org/de
 
 ## System requirements
 
-ARM, ARM64, x86, or amd64 system
-
-**Client:** Windows 10
-
-**Server:** Windows Server 2016 Technical Preview
-
-**Phone:** Windows 10
+* Windows 10
 
 ## Build the sample
 

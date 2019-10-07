@@ -1,4 +1,15 @@
-﻿<!---
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- cppcx
+products:
+- windows
+- windows-uwp
+---
+
+<!---
   category: NetworkingAndWebServices 
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620626
 --->
@@ -48,13 +59,13 @@ Support for those will come in a future sample.
 [Wi-Fi Direct](https://msdn.microsoft.com/library/windows/apps/windows.devices.wifidirect.aspx)  
 [Sockets](https://msdn.microsoft.com/library/windows/apps/windows.networking.sockets.aspx)  
 
+### Related samples
+
+* [WiFiDirect sample](/archived/WiFiDirect/) for JavaScript (archived)
+
 ## System requirements
 
-**Client:** Windows 10
-
-**Server:** Windows Server 2016 Technical Preview
-
-**Phone:**  Windows 10
+* Windows 10
 
 ## Build the sample
 

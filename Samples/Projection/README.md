@@ -1,3 +1,14 @@
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- cppcx
+products:
+- windows
+- windows-uwp
+---
+
 <!---
   category: Navigation
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620587
@@ -23,16 +34,18 @@ The sample demonstrates:
 
 ## Related topics
 
+### Reference
+
 [ProjectionManager](http://msdn.microsoft.com/library/windows/apps/dn281126)  
 [ApplicationViewSwitcher](http://msdn.microsoft.com/library/windows/apps/dn281094)  
 
+### Related samples
+
+* [Projection sample](/archived/Projection/) for JavaScript (archived)
+
 ## System requirements
 
-**Client:** Windows 10
-
-**Server:** Windows Server 2016 Technical Preview
-
-**Phone:**  Windows 10
+* Windows 10
 
 ## Build the sample
 

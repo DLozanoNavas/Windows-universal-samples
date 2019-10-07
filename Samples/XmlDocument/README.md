@@ -1,3 +1,12 @@
+---
+topic: sample
+languages:
+- csharp
+products:
+- windows
+- windows-uwp
+---
+
 <!---
   category: Data
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620639
@@ -43,16 +52,18 @@ The Source XML and Source XSL can both be modified during runtime to see differe
 
 ## Related topics
 
+### Reference
+
 [Windows.Data.Xml.Dom.XmlDocument](https://msdn.microsoft.com/library/windows/apps/br206173)  
 [Windows.Data.Xml.Xsl.XsltProcessor](https://msdn.microsoft.com/library/windows/apps/windows.data.xml.xsl.xsltprocessor.aspx)  
 
+### Related samples
+
+* [XmlDocument sample](/archived/XmlDocument/) for JavaScript (archived)
+
 ## System requirements
 
-**Client:** Windows 10
-
-**Server:** Windows Server 2016 Technical Preview
-
-**Phone:** Windows 10
+* Windows 10
 
 ## Build the sample
 

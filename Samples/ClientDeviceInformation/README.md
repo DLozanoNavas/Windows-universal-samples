@@ -1,4 +1,15 @@
-﻿<!---
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- cppcx
+products:
+- windows
+- windows-uwp
+---
+
+<!---
   category: IdentitySecurityAndEncryption
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620540
 --->
@@ -16,15 +27,17 @@ Shows how to retrieve device information such as operating system and manufactur
 
 ## Related Topics
 
+### Reference
+
 [EasClientDeviceInformation class](https://msdn.microsoft.com/library/windows/apps/windows.security.exchangeactivesyncprovisioning.easclientdeviceinformation)  
 
-## Operating system requirements
+### Related samples
 
-*Client*: Windows 10
+* [ClientDeviceInformation sample](/archived/ClientDeviceInformation/) for JavaScript (archived)
 
-**Server:** Windows Server 2016 Technical Preview
+## System requirements
 
-**Phone:** Windows 10
+* Windows 10
 
 ## Build the sample
 

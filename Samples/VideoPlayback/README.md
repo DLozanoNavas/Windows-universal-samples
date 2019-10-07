@@ -1,3 +1,12 @@
+---
+topic: sample
+languages:
+- csharp
+products:
+- windows
+- windows-uwp
+---
+
 <!---
   category: AudioVideoAndCamera
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620020
@@ -27,21 +36,20 @@ Specifically, this sample covers:
 
 ## Related topics
 
-### Samples
-
-[VideoPlaybackSynchronization sample](/Samples/VideoPlaybackSynchronization)  
-[XamlCustomMediaTransportControls sample](/Samples/XamlCustomMediaTransportControls)  
-[360VideoPlayback sample](/Samples/360VideoPlayback)  
-
 ### Reference
 
 [Windows.Media.Playback namespace](https://msdn.microsoft.com/library/windows/apps/windows.media.playback.aspx)  
 
+### Related samples
+
+* [VideoPlaybackSynchronization sample](/Samples/VideoPlaybackSynchronization)
+* [XamlCustomMediaTransportControls sample](/Samples/XamlCustomMediaTransportControls)
+* [360VideoPlayback sample](/Samples/360VideoPlayback)
+* [VideoPlayback sample](/archived/VideoPlayback/) for JavaScript (archived)
+
 ## System requirements
 
-**Client:** Windows 10
-
-**Phone:** Windows 10
+* Windows 10
 
 Build the sample
 ----------------

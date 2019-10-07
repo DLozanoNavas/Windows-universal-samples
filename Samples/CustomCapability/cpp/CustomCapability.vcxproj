@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{dbddfb64-e433-5a05-bd84-15612e0c8937}</ProjectGuid>
+    <ProjectGuid>{03cd9fc8-8649-5d71-bb24-65acaadae9a2}</ProjectGuid>
     <RootNamespace>SDKTemplate</RootNamespace>
     <DefaultLanguage>en-US</DefaultLanguage>
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <AppContainerApplication>true</AppContainerApplication>
     <ApplicationType>Windows Store</ApplicationType>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
-    <WindowsTargetPlatformMinVersion>10.0.17134.0</WindowsTargetPlatformMinVersion>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.18362.0</WindowsTargetPlatformMinVersion>
     <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
     <ProjectName>CustomCapability</ProjectName>
   </PropertyGroup>
@@ -198,6 +198,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="DeviceList.h" />
+    <ClInclude Include="FirmwareAccess.h" />
     <ClInclude Include="Fx2Driver.h" />
     <ClInclude Include="ServiceViewModel.h" />
     <ClInclude Include="pch.h" />
@@ -223,6 +224,12 @@
     <ClInclude Include="Scenario5_DeviceReadWrite.xaml.h">
       <DependentUpon>..\shared\Scenario5_DeviceReadWrite.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="Scenario6_CustomTrigger.xaml.h">
+      <DependentUpon>..\shared\Scenario6_CustomTrigger.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="Scenario7_FirmwareAccess.xaml.h">
+      <DependentUpon>..\shared\Scenario7_FirmwareAccess.xaml</DependentUpon>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="..\..\..\SharedContent\xaml\App.xaml">
@@ -241,6 +248,8 @@
     <Page Include="..\shared\Scenario3_DeviceIO.xaml" />
     <Page Include="..\shared\Scenario4_DeviceEvents.xaml" />
     <Page Include="..\shared\Scenario5_DeviceReadWrite.xaml" />
+    <Page Include="..\shared\Scenario6_CustomTrigger.xaml" />
+    <Page Include="..\shared\Scenario7_FirmwareAccess.xaml" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -304,6 +313,12 @@
     <ClCompile Include="Scenario5_DeviceReadWrite.xaml.cpp">
       <DependentUpon>..\shared\Scenario5_DeviceReadWrite.xaml</DependentUpon>
     </ClCompile>
+    <ClCompile Include="Scenario6_CustomTrigger.xaml.cpp">
+      <DependentUpon>..\shared\Scenario6_CustomTrigger.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="Scenario7_FirmwareAccess.xaml.cpp">
+      <DependentUpon>..\shared\Scenario7_FirmwareAccess.xaml</DependentUpon>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="CustomCapability.SCCD">
@@ -311,6 +326,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Service\Osrusbfx2Task\Osrusbfx2Task.csproj">
+      <Project>{45611270-f6a1-4969-ab74-9a0e1f39111b}</Project>
+    </ProjectReference>
     <ProjectReference Condition="'$(Platform)' == 'x86' Or '$(Platform)' == 'x64'" Include="..\Service\Client\RpcClient.vcxproj">
       <Project>{86B5561E-46B3-5DDE-9121-423803DA2807}</Project>
       <Name>RpcClient</Name>

@@ -1,3 +1,12 @@
+---
+topic: sample
+languages:
+- csharp
+products:
+- windows
+- windows-uwp
+---
+
 <!---
   category: TilesToastAndNotifications
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620577
@@ -113,18 +122,17 @@ New to Windows 10 are actionable toasts where a user has a choice to interact wi
   - Remove by Group
   - Clear All
 
-## See also
+## Related topics
 
-[Traffic App sample](https://github.com/microsoft/windows-appsample-trafficapp/)  
-[Lunch Scheduler app sample](https://github.com/Microsoft/Windows-appsample-lunch-scheduler)  
+### Related samples
+
+* [Traffic App sample](https://github.com/microsoft/windows-appsample-trafficapp/)
+* [Lunch Scheduler app sample](https://github.com/Microsoft/Windows-appsample-lunch-scheduler)
+* [Notifications sample](/archived/Notifications/) for JavaScript (archived)
 
 ## System requirements
 
-**Client:** Windows 10
-
-**Server:** Windows Server 2016 Technical Preview
-
-**Phone:** Windows 10
+* Windows 10
 
 ## Build the sample
 

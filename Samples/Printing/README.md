@@ -1,4 +1,15 @@
-﻿<!---
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- cppcx
+products:
+- windows
+- windows-uwp
+---
+
+<!---
   category: ControlsLayoutAndText Printing
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=619984
 --->
@@ -23,18 +34,16 @@ The scenarios demonstrated in this sample include:
 - Disabling print preview
 - Removing the Print button if the device does not support printing
 
-## Related samples
+## Related topics
 
-[Coloring Book app sample](https://github.com/Microsoft/Windows-appsample-coloringbook)  
+### Related samples
 
-System requirements
--------------------
+* [Coloring Book app sample](https://github.com/Microsoft/Windows-appsample-coloringbook)  
+* [Printing sample](/archived/Printing/) for JavaScript (archived)
 
-**Client:** Windows 10 build 14295
+## System requirements
 
-**Server:** Windows Server 2016 Technical Preview
-
-**Phone:** Windows 10 build 14295
+* Windows 10 build 14393 or higher
 
 Build the sample
 ----------------

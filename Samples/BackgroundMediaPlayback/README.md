@@ -1,4 +1,13 @@
-﻿<!---
+---
+topic: sample
+languages:
+- csharp
+products:
+- windows
+- windows-uwp
+---
+
+<!---
   category: AudioVideoAndCamera
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=800141
 --->
@@ -316,19 +325,22 @@ an AppMemoryLimitChanging event and then a LeavingBackground event.
  ✓ **Do** use the LeavingBackground event to recreate UI resources that your app
  discarded when moving into the background.
 
-Related topics
---------------
+## Related topics
+
+### Reference
+
 * [Background Activity With the Single Process Model](https://blogs.windows.com/buildingapps/2016/06/07/background-activity-with-the-single-process-model/)
 * [BackgroundActivation sample](/Samples/BackgroundActivation)
 * Old [BackgroundAudio sample](http://go.microsoft.com/fwlink/p/?LinkId=619997),
   no longer recommended but available for reference.
 
-System requirements
------------------------------
+### Related samples
 
-**Client:** Windows 10 version 14332
+* [BackgroundMediaPlayback sample](/archived/BackgroundMediaPlayback/) for JavaScript (archived)
 
-**Phone:** Windows 10 version 14332
+## System requirements
+
+* Windows 10 build 14393 or higher
 
 Build the sample
 ----------------

@@ -1,4 +1,15 @@
-﻿<!---
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- cppcx
+products:
+- windows
+- windows-uwp
+---
+
+<!---
   category: ControlsLayoutAndText
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620525
 --->
@@ -26,6 +37,10 @@ The sample demonstrates these two tasks:
 
 To learn about choosing commands and designing a context menu, see [Guidelines and checklist for context menus](http://msdn.microsoft.com/library/windows/apps/hh465308).
 
+For XAML-based apps, we recommend that developers
+[use the ContextFlyout property to implement context menus](https://docs.microsoft.com/en-us/windows/uwp/design/controls-and-patterns/menus)
+This sample uses the PopupMenu class for illustration purposes.
+
 Additional APIs for this sample include:
 
 -   [UICommand](http://msdn.microsoft.com/library/windows/apps/br242166) class
@@ -43,13 +58,13 @@ To obtain information about Microsoft Visual Studio and the tools for developing
 
 [Windows.UI.Popups](http://msdn.microsoft.com/library/windows/apps/br242180)  
 
+### Related samples
+
+* [ContextMenu sample](/archived/ContextMenu/) for JavaScript (archived)
+
 ## System requirements
 
-**Client:** Windows 10
-
-**Server:** Windows Server 2016 Technical Preview
-
-**Phone:** Windows 10
+* Windows 10
 
 ## Build the sample
 

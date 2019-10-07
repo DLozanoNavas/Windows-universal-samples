@@ -1,4 +1,15 @@
-﻿<!---
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- cppcx
+products:
+- windows
+- windows-uwp
+---
+
+<!---
   category: ContactsAndCalendar
   samplefwlink: http://go.microsoft.com/fwlink/?LinkID=859519
 --->

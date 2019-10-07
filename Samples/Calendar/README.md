@@ -1,3 +1,15 @@
+---
+topic: sample
+languages:
+- csharp
+- cpp
+- cppcx
+- vb
+products:
+- windows
+- windows-uwp
+---
+
 <!--
   category: GlobalizationAndLocalization
   samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=624043
@@ -52,25 +64,22 @@ This scenario also demonstrates converting from a language-specific date type to
 
 ## Related topics
 
-### Samples
-
-[DateTimeFormatting sample](../DateTimeFormatting)  
-[GlobalizationPreferences sample](../GlobalizationPreferences)  
-[NumberFormatting sample](../NumberFormatting)  
-
 ### Reference
 
 [Windows.Globalization.Calendar](http://msdn.microsoft.com/library/windows/apps/br206724)  
 [Windows.Globalization.CalendarIdentifiers](http://msdn.microsoft.com/library/windows/apps/br229460)  
 [Windows.Globalization.ClockIdentifiers](http://msdn.microsoft.com/library/windows/apps/br229462)  
 
+### Related samples
+
+* [DateTimeFormatting sample](../DateTimeFormatting)
+* [GlobalizationPreferences sample](../GlobalizationPreferences)
+* [NumberFormatting sample](../NumberFormatting)
+* [Calendar sample](/archived/Calendar/) for JavaScript (archived)
+
 ## System requirements
 
-**Client:** Windows 10
-
-**Server:** Windows Server 2016 Technical Preview
-
-**Phone:** Windows 10
+* Windows 10
 
 ## Build the sample
 
